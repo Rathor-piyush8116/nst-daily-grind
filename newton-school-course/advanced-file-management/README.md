@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `rc0g7i5it2ib`  
-**Submission Time:** 2026-09-13T19:23:32.226Z  
+**Submission Time:** 2026-09-13T19:24:07.217Z  
 
 ## Problem Statement
 
@@ -84,7 +84,6 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
 mkdir project-files
 cd project-files
 touch report.docx
@@ -96,12 +95,6 @@ mv draft.docx old/
 mv summary.docx final_summary.docx
 cp final_summary.docx old/
 rm report_backup.docx
-
-
-// ─── 5 ───
-/box/project-files
-🔍 Checking project-files folder structure...
-All files and folders are correctly created and organized.
 ```
 
 ---
