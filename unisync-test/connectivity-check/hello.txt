@@ -1,0 +1,3 @@
+UniSync connectivity test
+Generated: 2026-09-13T11:30:27.350Z
+If you can read this file, UniSync is correctly configured to push to this repository.
