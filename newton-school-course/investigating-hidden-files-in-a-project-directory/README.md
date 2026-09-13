@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `jv6bk6yvpygg`  
-**Submission Time:** 2026-09-13T19:53:24.716Z  
+**Submission Time:** 2026-09-13T19:55:30.159Z  
 
 ## Problem Statement
 
@@ -43,14 +43,7 @@ NA
 ## Solution
 
 ```js
-cd project
-ls -la > list.txt
-cat .env
-cat .config
-cat .env .config > final.txt 
-cp final.txt backup.txt
-mv backup.txt report.txt 
-echo " Inspection Complete" >> report.txt
+1234567890
 ```
 
 ---
