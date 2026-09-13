@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `rc0g7i5it2ib`  
-**Submission Time:** 2026-09-13T19:22:11.110Z  
+**Submission Time:** 2026-09-13T19:23:32.226Z  
 
 ## Problem Statement
 
@@ -90,13 +90,13 @@ cd project-files
 touch report.docx
 touch summary.docx
 touch draft.docx
-cp report.docx project-files
+cp report.docx report_backup.docx
 mkdir old
 mv draft.docx old/
 mv summary.docx final_summary.docx
 cp final_summary.docx old/
 rm report_backup.docx
-pwd
+
 
 // ─── 5 ───
 /box/project-files
