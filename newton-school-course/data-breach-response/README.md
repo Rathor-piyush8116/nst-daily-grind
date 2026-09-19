@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `8uwezyuprzwn`  
-**Submission Time:** 2026-09-19T20:19:32.077Z  
+**Submission Time:** 2026-09-19T20:24:57.020Z  
 
 ## Problem Statement
 
@@ -94,6 +94,7 @@ NA
 
 ```js
 # your code goes here
+pwd
 ```
 
 ---
