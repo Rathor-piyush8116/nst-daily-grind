@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lhyhcjk9ng9y`  
-**Submission Time:** 2026-09-19T20:17:07.424Z  
+**Submission Time:** 2026-09-19T20:18:15.007Z  
 
 ## Problem Statement
 
@@ -37,7 +37,8 @@ NA
 # ls audit_trail
 
 chmod 750 audit_trail/
-echo "Audit Summary Generated" > audit_trail/summary.txt
+touch audit_trail/summary.txt
+echo "Audit Summary Generated" >> audit_trail/summary.txt
 
 chmod 640 audit_trail/summary.txt
 
@@ -45,10 +46,10 @@ chmod 640 audit_trail/summary.txt
 
 // ─── 19 ───
 Is all the requirements are fulfilled?
-SUCCESS
+FAILURE
 
 
-// ─── 20 ───
+// ─── 25 ───
 chmod 750 audit_trail
 echo "Audit Summary Generated" > audit_trail/summary.txt
 chmod 640 audit_trail/summary.txt
