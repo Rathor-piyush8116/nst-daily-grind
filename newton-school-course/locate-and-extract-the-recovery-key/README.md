@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `mx1mqr2kv8o1`  
-**Submission Time:** 2026-09-19T19:21:17.603Z  
+**Submission Time:** 2026-09-19T19:22:16.721Z  
 
 ## Problem Statement
 
@@ -43,8 +43,7 @@ NA
 ## Solution
 
 ```js
-grep -Rho 'RECOVERY_KEY=[^[:space:]]*' ./backups | head -1 | cut -d'=' -f2- > key.txt
-cat key.txt
+# your code goes here
 ```
 
 ---
