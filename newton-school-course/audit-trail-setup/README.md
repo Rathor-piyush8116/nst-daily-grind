@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lhyhcjk9ng9y`  
-**Submission Time:** 2026-09-19T19:23:07.661Z  
+**Submission Time:** 2026-09-19T19:58:09.510Z  
 
 ## Problem Statement
 
@@ -32,9 +32,7 @@ NA
 ## Solution
 
 ```js
-chmod 750 audit_trail
-echo "Audit Summary Generated" > audit_trail/summary.txt
-chmod 640 audit_trail/summary.txt
+# your code goes here
 ```
 
 ---
