@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `w9ciewfxoksc`  
-**Submission Time:** 2026-09-19T19:58:03.708Z  
+**Submission Time:** 2026-09-20T06:38:59.880Z  
 
 ## Problem Statement
 
@@ -31,16 +31,9 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
 # your code goes here
 chmod 777 ./hello.py
 ./hello.py
-
-
-
-// ─── 5 ───
-Hello from Python
-Issue resolved successfully
 ```
 
 ---
