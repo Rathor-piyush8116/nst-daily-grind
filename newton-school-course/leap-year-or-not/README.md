@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ijj9muluibn3`  
-**Submission Time:** 2026-09-21T07:48:53.699Z  
+**Submission Time:** 2026-09-21T10:15:07.016Z  
 
 ## Problem Statement
 
@@ -42,25 +42,7 @@ Not a Leap Year
 
 ## Solution
 
-```py
-// ─── 2 ───
-'''
-def is_leap(year):
-    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-        return True
-    else:
-        return False
-'''
-
-# Your code starts here
-year = int(input())
-a = is_leap(year)
-if a==1:
-    print("Leap Year")
-else:
-    print("Not a Leap Year")
-
-// ─── 3 ───
+```js
 0
 ```
 
