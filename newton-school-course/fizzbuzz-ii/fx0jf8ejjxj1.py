@@ -22,4 +22,4 @@ elif n/3:
 elif n/5:
     print("Buzz")
 else:
-    print("n")
+    print(n)

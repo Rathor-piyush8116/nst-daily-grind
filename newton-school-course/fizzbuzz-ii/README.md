@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `fx0jf8ejjxj1`  
-**Submission Time:** 2026-09-21T17:20:08.438Z  
+**Submission Time:** 2026-09-21T17:22:20.112Z  
 
 ## Problem Statement
 
@@ -92,7 +92,7 @@ elif n/3:
 elif n/5:
     print("Buzz")
 else:
-    print("n")
+    print(n)
 ```
 
 ---
