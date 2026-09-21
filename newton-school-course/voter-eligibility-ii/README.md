@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `zgd06ylxekmt`  
-**Submission Time:** 2026-09-21T16:47:44.232Z  
+**Submission Time:** 2026-09-21T16:48:38.728Z  
 
 ## Problem Statement
 
@@ -44,8 +44,8 @@ if age >=18:
 else:
     print("No")
 
-// ─── 3 ───
-20
+// ─── 7 ───
+Yes
 ```
 
 ---
