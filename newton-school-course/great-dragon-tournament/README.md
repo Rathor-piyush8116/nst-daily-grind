@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vax7wi4hn26g`  
-**Submission Time:** 2026-09-21T08:02:51.785Z  
+**Submission Time:** 2026-09-21T10:15:02.599Z  
 
 ## Problem Statement
 
@@ -71,22 +71,9 @@ Therefore, the correct category of dragon is BALANCED.
 
 ## Solution
 
-```py
-// ─── 6 ───
-def dragon_category(power, stamina):
-    if power == stamina:
-        return "BALANCED"
-    elif power >= 2*stamina:
-        return "OVERPOWERED"
-    elif 2*power <= stamina:
-        return "UNBREAKABLE"
-    elif 2*stamina > power > stamina:
-        return "MIGHTY"
-    else:
-        return "ENDURING"
-
-// ─── 11 ───
-BALANCED
+```js
+500
+500
 ```
 
 ---
