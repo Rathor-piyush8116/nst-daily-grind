@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `kqvs0ka7nsoe`  
-**Submission Time:** 2026-09-21T12:50:21.644Z  
+**Submission Time:** 2026-09-21T12:50:49.535Z  
 
 ## Problem Statement
 
@@ -52,13 +52,13 @@ So the output is 98.6.
 ## Solution
 
 ```py
-// ─── 15 ───
+// ─── 19 ───
 def celsius_to_fahrenheit(celsius):
    #Return the corresponding temperature in Fahrenheit (as a float).
    fahrenheit = (celsius*9/5)+32
    return fahrenheit
 
-// ─── 16 ───
+// ─── 20 ───
 32
 ```
 
