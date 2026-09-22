@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `fdwuq1cqockn`  
-**Submission Time:** 2026-09-18T11:20:50.869Z  
+**Submission Time:** 2026-09-22T12:44:33.320Z  
 
 ## Problem Statement
 
@@ -72,27 +72,8 @@ All 80 units fall within the first 100-unit slab, so the bill is 80 × ₹4 = �
 
 ## Solution
 
-```py
-// ─── 5 ───
-units = int(input())
-ans=0
-if units<=100:
-    ans= units*4
-elif 100<units<=200:
-    ans=100*4 + (units-100)*5
-elif 200<units<=300:
-    ans= 100*4+ 100*5 + (units-200)*6
-elif 300<units<=400:
-    ans= 100*4+ 100*5+ 100*6 +(units-300)*7
-else:
-    ans= 100*4+100*5+100*6+100*7+(units-400)*8   
-total= ans/10
-ans = ans+total
-print(round(ans,1))
-
-
-// ─── 15 ───
-1881.0
+```js
+330
 ```
 
 ---
