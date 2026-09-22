@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `09tu4y2y6qum`  
-**Submission Time:** 2026-09-22T13:05:44.061Z  
+**Submission Time:** 2026-09-22T13:17:21.758Z  
 
 ## Problem Statement
 
@@ -50,8 +50,18 @@ Total:Rs.1000
 ## Solution
 
 ```js
-Adarsh
-120 250 80
+// ─── 2 ───
+name = input()
+p1, p2, p3 = map(int,input().split())
+print("Customer:",name,sep="")
+print("Prices:",p1,"|",p2,"|",p3,sep="")
+print("Total:Rs.",p1+p2+p3,sep="")
+
+
+// ─── 6 ───
+Customer:Adarsh
+Prices:|120|250|80
+Total:Rs.450
 ```
 
 ---
