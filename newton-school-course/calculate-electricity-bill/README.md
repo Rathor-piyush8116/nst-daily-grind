@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `fdwuq1cqockn`  
-**Submission Time:** 2026-09-22T12:44:33.320Z  
+**Submission Time:** 2026-09-22T12:52:35.331Z  
 
 ## Problem Statement
 
@@ -72,8 +72,14 @@ All 80 units fall within the first 100-unit slab, so the bill is 80 × ₹4 = �
 
 ## Solution
 
-```js
-330
+```py
+units = int(input())
+if units >= 100:
+    price = units*4
+elif units >=200:
+    price = 100 *4 +(units-100)*5
+elif units >=300:
+    price = 100 *4 + 100*5 + (units -)
 ```
 
 ---
