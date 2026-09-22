@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `d1l871sgqi1r`  
-**Submission Time:** 2026-09-18T12:22:03.323Z  
+**Submission Time:** 2026-09-22T13:03:56.690Z  
 
 ## Problem Statement
 
@@ -65,6 +65,7 @@ Therefore, the final fare is 20.
 ## Solution
 
 ```py
+// ─── 19 ───
 distance, age = map(int,input().split())
 ans=10
 if distance<=5 :
@@ -80,6 +81,9 @@ if age>=60:
     print(ans/2)
 else:
     print(ans)
+
+// ─── 20 ───
+0 1
 ```
 
 ---

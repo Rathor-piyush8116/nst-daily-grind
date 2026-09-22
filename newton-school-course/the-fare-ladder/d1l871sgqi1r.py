@@ -1,3 +1,4 @@
+// ─── 19 ───
 distance, age = map(int,input().split())
 ans=10
 if distance<=5 :
@@ -13,3 +14,6 @@ if age>=60:
     print(ans/2)
 else:
     print(ans)
+
+// ─── 20 ───
+0 1
