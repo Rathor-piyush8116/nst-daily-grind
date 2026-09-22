@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `xw8oi3k212gv`  
-**Submission Time:** 2026-09-22T07:45:32.744Z  
+**Submission Time:** 2026-09-22T07:45:44.738Z  
 
 ## Problem Statement
 
@@ -72,13 +72,9 @@ Since one condition is False, bridges cannot enclose a region; the output is "NO
 ## Solution
 
 ```py
-// ─── 2 ───
 def is_triangle(a,b,c):
     #Return YES if the construction plan can go ahead, otherwise return NO.
     return "YES" if a + b > c and b + c > a and a + c > b else "NO"
-
-// ─── 3 ───
-6 7 10
 ```
 
 ---
