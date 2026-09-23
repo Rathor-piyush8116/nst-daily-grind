@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `4421jmdm2xzs`  
-**Submission Time:** 2026-09-23T19:51:37.332Z  
+**Submission Time:** 2026-09-23T19:56:31.496Z  
 
 ## Problem Statement
 
@@ -30,11 +30,14 @@ Harsh Gupta 25
 ## Solution
 
 ```js
-# Your code here
-firstname="Harsh"
-lastname="Gupta"
-_age=25
-print(firstname,lastname,_age)
+// ─── 2 ───
+firstName = "Harsh"
+last_name = "Gupta"
+_age = 25
+print(firstName, last_name, _age,sep=" " )
+
+// ─── 10 ───
+Harsh Gupta 25
 ```
 
 ---
