@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `j7o1fyyvrqid`  
-**Submission Time:** 2026-09-23T06:14:24.602Z  
+**Submission Time:** 2026-09-23T14:05:39.457Z  
 
 ## Problem Statement
 
@@ -21,23 +21,11 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
 # your code goes here
 echo "Hello Git" > notes.txt
 git diff
 git add notes.txt
 git commit -m "Add greeting"
-
-
-// ─── 5 ───
-diff --git a/notes.txt b/notes.txt
---- a/notes.txt
-+++ b/notes.txt
-+Hello Git
-Staged notes.txt
-[main abc1234] Add greeting
-Is question solved?
-SUCCESS
 ```
 
 ---
