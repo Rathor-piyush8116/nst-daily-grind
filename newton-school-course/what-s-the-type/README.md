@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vz714ew4sgi5`  
-**Submission Time:** 2026-09-23T19:41:47.182Z  
+**Submission Time:** 2026-09-23T19:51:27.889Z  
 
 ## Problem Statement
 
@@ -44,11 +44,11 @@ You need to:
 ## Solution
 
 ```js
-# Your code here
-first_name="Harsh"
-last_name="Gupta"
-_age=25
-height=5.9
+first_name = "Harsh"
+last_name = "Gupta"
+_age = 25
+height = 5.9
+
 print(type(first_name))
 print(type(last_name))
 print(type(_age))
