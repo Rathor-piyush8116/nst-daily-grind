@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `rlhko6y0lfcn`  
-**Submission Time:** 2026-09-23T06:42:17.726Z  
+**Submission Time:** 2026-09-23T10:36:39.085Z  
 
 ## Problem Statement
 
@@ -21,22 +21,12 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
 # your code goes here
 git switch -c feature-login
 touch login.html
 git add .
 git commit -m "Add login page"
 git switch main
-
-
-// ─── 5 ───
-Switched to new branch 'feature-login'
-Staged login.html
-[feature-login abc1234] Add login page
-Switched to branch 'main'
-Is question solved?
-SUCCESS
 ```
 
 ---
