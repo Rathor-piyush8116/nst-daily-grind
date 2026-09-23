@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `xymtjv96qv6x`  
-**Submission Time:** 2026-09-23T20:00:53.729Z  
+**Submission Time:** 2026-09-23T20:02:23.776Z  
 
 ## Problem Statement
 
@@ -28,12 +28,19 @@ Output
 ## Solution
 
 ```js
-# Your code here
+// ─── 2 ───
 print("*")
 print("**")
 print("***")
 print("****")
 print("*****")
+
+// ─── 5 ───
+*
+**
+***
+****
+*****
 ```
 
 ---
