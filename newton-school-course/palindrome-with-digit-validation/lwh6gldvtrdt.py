@@ -1,4 +1,3 @@
-// ─── 17 ───
 # Your code here
 n,d=map(int,input().split())
 a = isPalindrome(n)
@@ -8,6 +7,3 @@ elif a==1:
     print(f"Number is palindrome and last digit is not {d}")
 else:
      print("Number is not a palindrome")
-
-// ─── 20 ───
-Number is palindrome and last digit is 1

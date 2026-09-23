@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lwh6gldvtrdt`  
-**Submission Time:** 2026-09-23T07:45:34.645Z  
+**Submission Time:** 2026-09-23T12:16:55.561Z  
 
 ## Problem Statement
 
@@ -73,7 +73,6 @@ just print Number is not a palindrome
 ## Solution
 
 ```py
-// ─── 17 ───
 # Your code here
 n,d=map(int,input().split())
 a = isPalindrome(n)
@@ -83,9 +82,6 @@ elif a==1:
     print(f"Number is palindrome and last digit is not {d}")
 else:
      print("Number is not a palindrome")
-
-// ─── 20 ───
-Number is palindrome and last digit is 1
 ```
 
 ---
