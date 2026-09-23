@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vfj9al8k04qk`  
-**Submission Time:** 2026-09-23T19:56:41.579Z  
+**Submission Time:** 2026-09-23T20:00:47.800Z  
 
 ## Problem Statement
 
@@ -33,11 +33,11 @@ Vision,20,A+,True
 
 ```py
 # Your code here
-name="Vision"
-age="20"
-grade="A+"
-passed=True
-print(name,age,grade,passed,sep=",")
+name = "Vision"
+age = 20
+grade = "A+"
+passed = True
+print(name, age, grade,passed,sep=",")
 ```
 
 ---
