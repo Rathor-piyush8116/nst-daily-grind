@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lwh6gldvtrdt`  
-**Submission Time:** 2026-09-23T07:44:47.131Z  
+**Submission Time:** 2026-09-23T07:45:34.645Z  
 
 ## Problem Statement
 
@@ -79,13 +79,13 @@ n,d=map(int,input().split())
 a = isPalindrome(n)
 if a==1 and n%10==d :
     print(f"Number is palindrome and last digit is {d}")
-elif a==1  and n%10!=d :
+elif a==1:
     print(f"Number is palindrome and last digit is not {d}")
 else:
      print("Number is not a palindrome")
 
-// ─── 18 ───
-121 1
+// ─── 20 ───
+Number is palindrome and last digit is 1
 ```
 
 ---
