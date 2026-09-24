@@ -1,9 +1,8 @@
 // ─── 2 ───
-a = int(input())
-b = int(input())
-age = b-a
+birth_year = int(input())
+current_year = int(input())
+age = current_year - birth_year
 print(age)
 
-// ─── 3 ───
-2006
-2026
+// ─── 5 ───
+20

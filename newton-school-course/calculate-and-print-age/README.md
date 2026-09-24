@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `6r87qmdr6ju5`  
-**Submission Time:** 2026-09-24T17:24:37.699Z  
+**Submission Time:** 2026-09-24T17:26:37.678Z  
 
 ## Problem Statement
 
@@ -43,14 +43,13 @@ Age = 2025 - 2006 = 19
 
 ```js
 // ─── 2 ───
-a = int(input())
-b = int(input())
-age = b-a
+birth_year = int(input())
+current_year = int(input())
+age = current_year - birth_year
 print(age)
 
-// ─── 3 ───
-2006
-2026
+// ─── 5 ───
+20
 ```
 
 ---
