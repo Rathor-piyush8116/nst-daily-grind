@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `f9agvs5vuw3h`  
-**Submission Time:** 2026-09-25T07:46:44.269Z  
+**Submission Time:** 2026-09-25T07:51:49.543Z  
 
 ## Problem Statement
 
@@ -64,14 +64,16 @@ Explanation:
 
 ```py
 // ─── 6 ───
-# Your code here
-def product(a, b):
+
+def product(a,b):
     print(a*b)
 a,b = map(int,input().split())
-product(a, b)
+product(a,b)
 
-// ─── 7 ───
-4 5
+
+
+// ─── 12 ───
+20
 ```
 
 ---

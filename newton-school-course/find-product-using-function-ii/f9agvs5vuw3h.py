@@ -1,9 +1,11 @@
 // ─── 6 ───
-# Your code here
-def product(a, b):
+
+def product(a,b):
     print(a*b)
 a,b = map(int,input().split())
-product(a, b)
+product(a,b)
 
-// ─── 7 ───
-4 5
+
+
+// ─── 12 ───
+20
