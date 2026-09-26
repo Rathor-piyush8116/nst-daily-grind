@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `xqnfwv9xrf8t`  
-**Submission Time:** 2026-09-26T10:01:11.162Z  
+**Submission Time:** 2026-09-26T12:37:52.937Z  
 
 ## Problem Statement
 
@@ -64,7 +64,6 @@ Between 4 and 9, the greater is 9, so the output is 9
 ## Solution
 
 ```py
-// ─── 9 ───
 def greater(a, b):
     if a > b:
         print(a)
@@ -86,10 +85,6 @@ if choice == "G":
     greater(a, b)
 elif choice == "S":
     smaller(a, b)
-
-// ─── 10 ───
-G
-4 9
 ```
 
 ---

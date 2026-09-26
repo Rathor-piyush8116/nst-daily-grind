@@ -1,4 +1,3 @@
-// ─── 9 ───
 def greater(a, b):
     if a > b:
         print(a)
@@ -20,7 +19,3 @@ if choice == "G":
     greater(a, b)
 elif choice == "S":
     smaller(a, b)
-
-// ─── 10 ───
-G
-4 9
