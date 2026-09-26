@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ten8gonr7oq9`  
-**Submission Time:** 2026-09-26T15:29:37.722Z  
+**Submission Time:** 2026-09-26T15:40:00.611Z  
 
 ## Problem Statement
 
@@ -64,7 +64,7 @@ NA
 ## Solution
 
 ```js
-mkdir -p project/{src{components,services,utils},tests{unit,integration},docs{api,guides}}
+mkdir -p project/{src/{components,services,utils},tests/{unit,integration},docs/{api,guides}}
 ```
 
 ---

@@ -1,1 +1,1 @@
-mkdir -p project/{src{components,services,utils},tests{unit,integration},docs{api,guides}}
+mkdir -p project/{src/{components,services,utils},tests/{unit,integration},docs/{api,guides}}
