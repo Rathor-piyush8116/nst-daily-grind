@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ten8gonr7oq9`  
-**Submission Time:** 2026-09-26T14:22:47.532Z  
+**Submission Time:** 2026-09-26T14:34:01.474Z  
 
 ## Problem Statement
 
@@ -66,9 +66,10 @@ NA
 ```js
 // ─── 2 ───
 # mkdir -p project/src{components,services,utils}/tests/{unit,integration}docs/{api,guides}
-mkdir -p project/{src/{components,services,utils},tests/{unit,integration},docs/{api,guides}}
+# mkdir -p project/{src/{components,services,utils},tests/{unit,integration},docs/{api,guides}}
+mkdir -p project/src/components project/src/services project/src/utils project/tests/unit project/tests/integration  project/docs/api project/docs/guides
 
-// ─── 5 ───
+// ─── 8 ───
 Are all the directories made?
 All directories have been created successfully.
 ```
