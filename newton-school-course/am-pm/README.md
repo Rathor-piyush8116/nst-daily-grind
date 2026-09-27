@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `p4qlfg7zs507`  
-**Submission Time:** 2026-09-27T20:47:59.409Z  
+**Submission Time:** 2026-09-27T20:49:49.750Z  
 
 ## Problem Statement
 
@@ -40,13 +40,16 @@ PM
 ## Solution
 
 ```js
+// ─── 2 ───
 # Your code here
 hour = int(input())
-
 if hour <= 11:
     print("AM")
 else:
     print("PM")
+
+// ─── 5 ───
+PM
 ```
 
 ---
