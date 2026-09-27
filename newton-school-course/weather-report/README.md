@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `o16rwauivv87`  
-**Submission Time:** 2026-09-27T19:54:14.945Z  
+**Submission Time:** 2026-09-27T19:56:06.178Z  
 
 ## Problem Statement
 
@@ -46,26 +46,56 @@ According to the given question the temperature 0-9 are considered Very Cold
 
 ```py
 // ─── 2 ───
+# temp = int(input())
+# if temp < 0:
+#   weather = "Freezing Weather"
+# elif temp <= 9:
+#   weather = "Very Cold"
+# elif temp <= 19:
+#   weather = "Cold"
+# elif temp <= 29:
+#   weather = "Normal"
+# elif temp <= 39:
+#   weather = "Hot"
+# else:
+#   weather = "Very Hot"
+# print(f"The weather today is classified as: {weather}")
+
 temp = int(input())
-if temp < 0:
-  weather = "Freezing Weather"
-elif temp <= 9:
-  weather = "Very Cold"
-elif temp <= 19:
-  weather = "Cold"
-elif temp <= 29:
-  weather = "Normal"
-elif temp <= 39:
-  weather = "Hot"
+if temp<0:
+    print("The weather today is classified as: Freezing Weather")
+elif temp>=0 and temp<=9:
+    print("The weather today is classified as: Very Cold")
+elif temp>=10 and temp<=19:
+    print("The weather today is classified as: Cold")
+elif temp>=20 and temp<=29:
+    print("The weather today is classified as: Normal")
+elif temp>=30 and temp<=39:
+    print("The weather today is classified as: Hot")
 else:
-  weather = "Very Hot"
-print(f"The weather today is classified as: {weather}")
+    print("The weather today is classified as: Very Hot")
 
 
 
 
 // ─── 19 ───
 The weather today is classified as: Very Hot
+
+
+// ─── 31 ───
+temp = int(input())
+if temp<0:
+    print("The weather today is classified as:Freezing Weather")
+elif temp>=0 and temp<=9:
+    print("The weather today is classified as:Very Cold")
+elif temp>=10 and temp<=19:
+    print("The weather today is classified as:Cold")
+elif temp>=20 and temp<=29:
+    print("The weather today is classified as:Normal")
+elif temp>=30 and temp<=39:
+    print("The weather today is classified as:Hot")
+else:
+    print("The weather today is classified as:Very Hot")
 ```
 
 ---
