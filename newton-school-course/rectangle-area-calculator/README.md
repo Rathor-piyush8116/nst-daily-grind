@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `zhwun9xkm5uo`  
-**Submission Time:** 2026-09-27T06:19:03.324Z  
+**Submission Time:** 2026-09-27T06:28:29.548Z  
 
 ## Problem Statement
 
@@ -29,10 +29,21 @@ Area of the rectangle is: 15
 ## Solution
 
 ```js
+// ─── 2 ───
 length = int(input())
 width = int(input())
-area = length * width
-print("Area of the rectangle is:",area)
+area = length*width
+print(f"Area of the rectangle is: {area}")
+
+
+// ─── 22 ───
+length = int(input())
+width = int(input())
+area = length*width
+print(area)
+
+// ─── 53 ───
+Area of the rectangle is: 15
 ```
 
 ---
