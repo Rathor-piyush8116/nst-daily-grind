@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `u3dt82qa6omg`  
-**Submission Time:** 2026-09-27T10:25:07.178Z  
+**Submission Time:** 2026-09-27T10:25:39.148Z  
 
 ## Problem Statement
 
@@ -41,7 +41,7 @@ Output
 ## Solution
 
 ```js
-// ─── 2 ───
+// ─── 7 ───
 a, b, c, d = map(int, input().split())
 
 x = greater(a, b)
@@ -51,8 +51,8 @@ ans = greater(x, y)
 
 print(ans)
 
-// ─── 5 ───
-25
+// ─── 8 ───
+10 25 15 24
 ```
 
 ---
