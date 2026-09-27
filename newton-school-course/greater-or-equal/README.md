@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `hgfc8yph01yn`  
-**Submission Time:** 2026-09-27T06:29:00.905Z  
+**Submission Time:** 2026-09-27T08:03:30.935Z  
 
 ## Problem Statement
 
@@ -60,14 +60,8 @@ Both numbers have the same value.
 
 ## Solution
 
-```py
-a , b = map(int,input().split())
-if a>b:
-    print(a,"is greater than",b)
-elif b>a:
-    print(b,"is greater than",a)
-else:
-    print(a,"and",b,"are equal")
+```js
+a,b = map(int,input(),split())
 ```
 
 ---
