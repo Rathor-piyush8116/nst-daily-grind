@@ -1,2 +1,7 @@
+// ─── 2 ───
 x=int(input())
-print(x**2)
+square = x*x
+print(square)
+
+// ─── 5 ───
+4

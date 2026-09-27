@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `wp682yj1lkao`  
-**Submission Time:** 2026-09-27T06:12:15.548Z  
+**Submission Time:** 2026-09-27T06:13:58.969Z  
 
 ## Problem Statement
 
@@ -26,8 +26,13 @@ The given number is 4, and its square will be 4 * 4 = 16.
 ## Solution
 
 ```js
+// ─── 2 ───
 x=int(input())
-print(x**2)
+square = x*x
+print(square)
+
+// ─── 5 ───
+4
 ```
 
 ---
