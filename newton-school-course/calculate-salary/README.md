@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `pdh93if0089u`  
-**Submission Time:** 2026-09-27T19:58:27.032Z  
+**Submission Time:** 2026-09-27T20:29:13.915Z  
 
 ## Problem Statement
 
@@ -36,20 +36,55 @@ By using the formula answer is 21502.15
 ## Solution
 
 ```py
-basic_salary = float(input())
-
+// ─── 2 ───
+basic_salary = int(input())
 if basic_salary <= 10000:
-  hra = basic_salary * 0.20
-  da = basic_salary * 0.80
-elif basic_salary <= 20000:
-  hra = basic_salary * 0.25
-  da = basic_salary * 0.90
+    HRA = basic_salary * 0.20
+    DA = basic_salary * 0.80
+    gross_salary = basic_salary + HRA + DA
+    print("The gross salary of the employee is:", gross_salary)
+elif 20000 >= basic_salary > 10000:
+    HRA = basic_salary * 0.25
+    DA = basic_salary * 0.90
+    gross_salary = basic_salary + HRA + DA
+    print("The gross salary of the employee is:", gross_salary)
 else:
-  hra = basic_salary * 0.30
-  da = basic_salary * 0.95
+    HRA = basic_salary * 0.30
+    DA = basic_salary * 0.95
+    gross_salary = basic_salary + HRA + DA
+    print("The gross salary of the employee is:", gross_salary)
 
-gross_salary = basic_salary + hra + da
-print(f"The gross salary of the employee is: {gross_salary}")
+
+
+
+# The gross salary of the employee is: 21502.15
+#   The gross salary of the employee is: 21502.15
+
+
+// ─── 53 ───
+The gross salary of the employee is: 21502.15
+
+
+// ─── 62 ───
+basic_salary = float(input())
+if basic_salary <= 10000:
+    HRA = basic_salary * 0.10
+    DA = basic_salary * 0.80
+    gross_salary = basic_salary + HRA + DA
+    print("The gross salary of the employee is:", gross_salary)
+elif 20000 >= basic_salary > 10000:
+    HRA = basic_salary * 0.25
+    DA = basic_salary * 0.90
+    gross_salary = basic_salary + HRA + DA
+    print("The gross salary of the employee is:", gross_salary)
+else:
+    print("The gross salary of the employee is:", gross_salary)
+
+
+
+
+# The gross salary of the employee is: 21502.15
+#   The gross salary of the employee is: 21502.15
 ```
 
 ---
