@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `gxxb21iw9z7k`  
-**Submission Time:** 2026-09-27T18:59:50.647Z  
+**Submission Time:** 2026-09-27T19:09:53.733Z  
 
 ## Problem Statement
 
@@ -40,17 +40,16 @@ Fine for 10 late days is 100 Rs according to the question.
 
 ```py
 // ─── 2 ───
-days = int(input())
-
-if days <= 3:
-  print(10)
-elif days <= 10:
-  print(20)
+days=int(input())
+if days<=3:
+    print("10")
+elif days<=10:
+    print("20")
 else:
-  print(100)
+    print("100")
 
-// ─── 3 ───
-10
+// ─── 7 ───
+20
 ```
 
 ---
