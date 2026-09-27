@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `eg7x3j6cuyhe`  
-**Submission Time:** 2026-09-27T18:31:49.349Z  
+**Submission Time:** 2026-09-27T18:35:25.834Z  
 
 ## Problem Statement
 
@@ -46,6 +46,7 @@ Since -13 is less than 0, that's why the output is Negative number.
 ## Solution
 
 ```py
+// ─── 2 ───
 n = int(input())
 if n>0:
     print("Positive")
@@ -53,6 +54,9 @@ elif n<0:
     print("Negative")
 else:
     print("Zero")
+
+// ─── 9 ───
+Positive
 ```
 
 ---
