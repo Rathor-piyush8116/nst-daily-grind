@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `o16rwauivv87`  
-**Submission Time:** 2026-09-27T19:14:57.912Z  
+**Submission Time:** 2026-09-27T19:54:14.945Z  
 
 ## Problem Statement
 
@@ -45,8 +45,8 @@ According to the given question the temperature 0-9 are considered Very Cold
 ## Solution
 
 ```py
+// ─── 2 ───
 temp = int(input())
-
 if temp < 0:
   weather = "Freezing Weather"
 elif temp <= 9:
@@ -59,8 +59,13 @@ elif temp <= 39:
   weather = "Hot"
 else:
   weather = "Very Hot"
-
 print(f"The weather today is classified as: {weather}")
+
+
+
+
+// ─── 19 ───
+The weather today is classified as: Very Hot
 ```
 
 ---

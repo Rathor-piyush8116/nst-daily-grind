@@ -1,5 +1,5 @@
+// ─── 2 ───
 temp = int(input())
-
 if temp < 0:
   weather = "Freezing Weather"
 elif temp <= 9:
@@ -12,5 +12,10 @@ elif temp <= 39:
   weather = "Hot"
 else:
   weather = "Very Hot"
-
 print(f"The weather today is classified as: {weather}")
+
+
+
+
+// ─── 19 ───
+The weather today is classified as: Very Hot
