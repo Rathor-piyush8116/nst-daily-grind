@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `bv82zwdrarmb`  
-**Submission Time:** 2026-09-27T21:06:04.470Z  
+**Submission Time:** 2026-09-27T21:09:14.397Z  
 
 ## Problem Statement
 
@@ -31,13 +31,15 @@ Rectangle
 ## Solution
 
 ```js
-# Your code here
-length, breadth = map(int, input().split())
-
+// ─── 2 ───
+length, breadth = map(int,input().split())
 if length == breadth:
     print("Square")
 else:
     print("Rectangle")
+
+// ─── 6 ───
+Square
 ```
 
 ---
