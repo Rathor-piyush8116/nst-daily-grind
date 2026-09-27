@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `pn4ane3hh3z2`  
-**Submission Time:** 2026-09-27T06:14:07.053Z  
+**Submission Time:** 2026-09-27T06:15:43.879Z  
 
 ## Problem Statement
 
@@ -30,11 +30,13 @@ Since 20 units of electricity was consumed and the cost per unit is 10. The tota
 ## Solution
 
 ```js
-units, cost = map(int, input().split())
-
-total = units * cost
-
+// ─── 2 ───
+units, cost = map(int,input().split())
+total = units *cost
 print(total)
+
+// ─── 5 ───
+200
 ```
 
 ---

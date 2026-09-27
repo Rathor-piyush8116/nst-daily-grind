@@ -1,5 +1,7 @@
-units, cost = map(int, input().split())
-
-total = units * cost
-
+// ─── 2 ───
+units, cost = map(int,input().split())
+total = units *cost
 print(total)
+
+// ─── 5 ───
+200
