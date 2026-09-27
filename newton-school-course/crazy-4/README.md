@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `dj1s5l27b4j4`  
-**Submission Time:** 2026-09-27T21:16:41.263Z  
+**Submission Time:** 2026-09-27T23:38:20.452Z  
 
 ## Problem Statement
 
@@ -28,18 +28,8 @@ Champaklata
 
 ## Solution
 
-```py
-# Your code here
-a, b, c, d = map(int, input().split())
-
-if a > b and a > c and a > d:
-    print("Arjun")
-elif b > a and b > c and b > d:
-    print("Balram")
-elif c > a and c > b and c > d:
-    print("Champaklata")
-else:
-    print("Damodar")
+```js
+a,b,c,d = map(int,input().split())
 ```
 
 ---
