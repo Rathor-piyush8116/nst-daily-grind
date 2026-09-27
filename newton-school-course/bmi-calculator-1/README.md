@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vi3pcp4rkbi3`  
-**Submission Time:** 2026-09-27T20:50:01.386Z  
+**Submission Time:** 2026-09-27T21:05:52.606Z  
 
 ## Problem Statement
 
@@ -64,6 +64,29 @@ Category = Normal weight
 ## Solution
 
 ```py
+// ─── 2 ───
+weight = int(input())
+height = int(input())
+
+height = height/100
+bmi = weight / (height*height)
+bmi = round(bmi, 1)
+print(bmi)
+if bmi<18.5:
+    print("Underweight")
+elif bmi<=24.9:
+    print("Normal weight")
+elif bmi<=29.9:
+    print("Overweight")
+else:
+    print("Obese")
+
+// ─── 26 ───
+22.0
+Normal weight
+
+
+// ─── 27 ───
 # Your code here
 weight = int(input())
 height = int(input())
