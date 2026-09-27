@@ -12,7 +12,6 @@
 #   weather = "Hot"
 # else:
 #   weather = "Very Hot"
-# print(f"The weather today is classified as: {weather}")
 
 temp = int(input())
 if temp<0:
@@ -31,11 +30,13 @@ else:
 
 
 
-// ─── 19 ───
-The weather today is classified as: Very Hot
 
 
-// ─── 31 ───
+// ─── 43 ───
+The weather today is classified as:Normal
+
+
+// ─── 44 ───
 temp = int(input())
 if temp<0:
     print("The weather today is classified as:Freezing Weather")
