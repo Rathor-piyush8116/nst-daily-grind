@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `pxqtbpwskh67`  
-**Submission Time:** 2026-09-27T18:19:52.590Z  
+**Submission Time:** 2026-09-27T18:31:34.166Z  
 
 ## Problem Statement
 
@@ -53,6 +53,24 @@ The score is 60, which is 60 or more but less than 70. Therefore, the grade is D
 ## Solution
 
 ```py
+// ─── 2 ───
+score = int(input())
+if score>=90:
+    print("Grade A")
+elif score>=80 and score<90:
+    print("Grade B")
+elif score>=70 and score<80:
+    print("Grade C")
+elif score>=60 and score<70:
+    print("Grade D")
+else:
+    print("Grade F")
+
+// ─── 24 ───
+Grade F
+
+
+// ─── 25 ───
 n = int(input())
 if n>=90:
     print("Grade A")
