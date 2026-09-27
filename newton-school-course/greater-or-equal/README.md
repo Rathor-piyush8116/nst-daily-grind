@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `hgfc8yph01yn`  
-**Submission Time:** 2026-09-27T18:47:56.282Z  
+**Submission Time:** 2026-09-27T18:48:31.985Z  
 
 ## Problem Statement
 
@@ -61,7 +61,6 @@ Both numbers have the same value.
 ## Solution
 
 ```py
-// ─── 2 ───
 a,b=map(int,input().split())
 if a>b:
     print(a,"is greater than",b)
@@ -69,9 +68,6 @@ elif b>a:
     print(b,"is greater than",a)
 else:
     print(a, "and", b, "are equal")
-
-// ─── 12 ───
-14 is greater than 5
 ```
 
 ---
