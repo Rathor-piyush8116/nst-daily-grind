@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ipsabm94l2tw`  
-**Submission Time:** 2026-09-15T07:27:31.120Z  
+**Submission Time:** 2026-09-28T19:50:16.934Z  
 
 ## Problem Statement
 
@@ -38,7 +38,6 @@ Output
 ## Solution
 
 ```py
-// ─── 13 ───
 A, B, C = map(int, input().split())
 
 if A <= B and A <= C:
@@ -47,9 +46,6 @@ elif B <= A and B <= C:
     print(B)
 else:
     print(C)
-
-// ─── 16 ───
-1
 ```
 
 ---
