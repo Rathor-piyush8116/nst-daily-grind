@@ -1,3 +1,4 @@
+// ─── 2 ───
 basic_salary = int(input())
 if basic_salary <= 10000:
     HRA = basic_salary * 0.20
@@ -20,3 +21,6 @@ else:
 
 # The gross salary of the employee is: 21502.15
 #   The gross salary of the employee is: 21502.15
+
+// ─── 3 ───
+10001
