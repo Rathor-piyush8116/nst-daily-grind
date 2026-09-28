@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `b9s0k1wx11su`  
-**Submission Time:** 2026-09-28T17:46:19.853Z  
+**Submission Time:** 2026-09-28T18:02:09.594Z  
 
 ## Problem Statement
 
@@ -38,7 +38,7 @@ Output
 ## Solution
 
 ```py
-a,b,c=map(int,input().split())
+a,b,c = map(int,input().split())
 if a>b:
     if a>c:
         print(a)
