@@ -1,4 +1,3 @@
-// ─── 2 ───
 # Your code here
 d = int(input())
 bt = int(input())
@@ -40,6 +39,3 @@ if d <= 0:
 else:
     total = int(member_status(ms))
     print(total)
-
-// ─── 5 ───
-4

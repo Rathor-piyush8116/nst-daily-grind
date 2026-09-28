@@ -2,8 +2,8 @@
 
 ## Course Context
 **Course:** Newton School Course  
-**Problem Slug:** `ppa7hbmuv3ge`  
-**Submission Time:** 2026-09-22T08:22:27.064Z  
+**Problem Slug:** `bcuj6c7ws1j5`  
+**Submission Time:** 2026-09-28T18:35:17.181Z  
 
 ## Problem Statement
 
@@ -73,7 +73,6 @@ Invalid rental duration
 ## Solution
 
 ```py
-// ─── 7 ───
 # Your code here
 d = int(input())
 bt = int(input())
@@ -115,11 +114,6 @@ if d <= 0:
 else:
     total = int(member_status(ms))
     print(total)
-
-// ─── 8 ───
-4
-1
-1
 ```
 
 ---
