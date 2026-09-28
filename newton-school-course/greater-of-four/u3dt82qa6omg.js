@@ -1,4 +1,4 @@
-// ─── 2 ───
+// ─── 7 ───
 a, b, c, d = map(int, input().split())
 
 x = greater(a, b)
@@ -8,5 +8,5 @@ ans = greater(x, y)
 
 print(ans)
 
-// ─── 5 ───
-25
+// ─── 8 ───
+10 25 15 24
