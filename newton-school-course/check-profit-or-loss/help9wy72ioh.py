@@ -1,4 +1,3 @@
-// ─── 2 ───
 cost = int(input())
 sell = int(input())
 if sell > cost:
@@ -14,8 +13,3 @@ elif cost > sell:
 else:
     print("No Profit No Loss")
     print("0")
-    
-
-// ─── 8 ───
-Profit
-150

@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `help9wy72ioh`  
-**Submission Time:** 2026-09-27T21:15:53.117Z  
+**Submission Time:** 2026-09-28T17:40:22.373Z  
 
 ## Problem Statement
 
@@ -42,7 +42,6 @@ No Profit No Loss
 ## Solution
 
 ```py
-// ─── 2 ───
 cost = int(input())
 sell = int(input())
 if sell > cost:
@@ -58,11 +57,6 @@ elif cost > sell:
 else:
     print("No Profit No Loss")
     print("0")
-    
-
-// ─── 8 ───
-Profit
-150
 ```
 
 ---
