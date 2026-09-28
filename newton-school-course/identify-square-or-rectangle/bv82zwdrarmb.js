@@ -1,5 +1,9 @@
+// ─── 2 ───
 length, breadth = map(int,input().split())
-if length == breadth:
+if length==breadth:
     print("Square")
 else:
     print("Rectangle")
+
+// ─── 5 ───
+Square
