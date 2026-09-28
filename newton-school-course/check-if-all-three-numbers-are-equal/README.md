@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `zrxqnyd6tc7c`  
-**Submission Time:** 2026-09-28T17:41:00.029Z  
+**Submission Time:** 2026-09-28T17:45:52.330Z  
 
 ## Problem Statement
 
@@ -51,14 +51,15 @@ The three numbers do not all have the same value.
 ## Solution
 
 ```js
+// ─── 2 ───
 a,b,c = map(int,input().split())
-if a==b:
-    if a==c:
-        print("Numbers are equal")
-    else:
-        print("Numbers are not equal")
+if a==b and b==c and c==a:
+    print("Numbers are equal")
 else:
     print("Numbers are not equal")
+
+// ─── 5 ───
+Numbers are equal
 ```
 
 ---
