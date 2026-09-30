@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `1qg3cfvkgfnw`  
-**Submission Time:** 2026-09-30T14:09:28.212Z  
+**Submission Time:** 2026-09-30T14:10:29.606Z  
 
 ## Problem Statement
 
@@ -51,15 +51,10 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
 echo "Linux Notes" > notes/linux/notes.txt
 echo "Git Notes" > notes/git/notes.txt
 echo "JavaScript Notes" > notes/javascript/notes.txt
 cat notes/linux/notes.txt notes/git/notes.txt notes/javascript/notes.txt >> notes/final.txt
-
-// ─── 5 ───
-Is Question Solved?
-YES
 ```
 
 ---
