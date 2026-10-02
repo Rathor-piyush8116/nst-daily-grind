@@ -11,8 +11,8 @@ print(a + b, a - b)
 a, b = map(int, input().split())
 print(a + b, a - b)
 
-// ─── 14 ───
-3 1
-7 1
-7 3
-1 1
+// ─── 3 ───
+2 1
+4 3
+5 2
+1 0

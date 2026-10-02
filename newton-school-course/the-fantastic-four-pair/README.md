@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `d9ogarn625h2`  
-**Submission Time:** 2026-10-02T05:21:12.686Z  
+**Submission Time:** 2026-10-02T05:21:39.011Z  
 
 ## Problem Statement
 
@@ -93,11 +93,11 @@ print(a + b, a - b)
 a, b = map(int, input().split())
 print(a + b, a - b)
 
-// ─── 14 ───
-3 1
-7 1
-7 3
-1 1
+// ─── 3 ───
+2 1
+4 3
+5 2
+1 0
 ```
 
 ---
