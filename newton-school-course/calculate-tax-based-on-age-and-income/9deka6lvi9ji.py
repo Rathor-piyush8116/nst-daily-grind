@@ -1,18 +1,28 @@
-age, income = map(int, input().split())
-
-if age < 18:
-    if income <= 1000000:
-        tax = income * 5 // 100
-    elif income <= 3000000:
-        tax = income * 15 // 100
+// ─── 2 ───
+age,income=map(int,input().split())
+if income <= 1000000:
+    if age < 18:
+        ans = income * 0.05
+        
     else:
-        tax = income * 25 // 100
+        ans = income * 0.10 
+        
+elif 1000000 <income <= 3000000:
+    if age < 18:
+        ans = income * 0.15
+       
+    else:
+        ans = income * 0.20
+        
 else:
-    if income <= 1000000:
-        tax = income * 10 // 100
-    elif income <= 3000000:
-        tax = income * 20 // 100
+    if age < 18:
+        ans = income * 0.25
+        
     else:
-        tax = income * 30 // 100
+        ans = income * 0.30
+print(int(ans))
 
-print(tax)
+
+
+// ─── 8 ───
+80000
