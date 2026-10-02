@@ -1,4 +1,3 @@
-// ─── 6 ───
 age, income = map(int, input().split())
 
 if age < 18:
@@ -17,6 +16,3 @@ else:
         tax = income * 30 // 100
 
 print(tax)
-
-// ─── 11 ───
-80000

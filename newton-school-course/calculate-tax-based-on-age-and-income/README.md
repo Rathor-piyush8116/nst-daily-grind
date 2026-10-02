@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `9deka6lvi9ji`  
-**Submission Time:** 2026-09-15T07:26:20.020Z  
+**Submission Time:** 2026-10-02T05:41:25.298Z  
 
 ## Problem Statement
 
@@ -81,7 +81,6 @@ Explanation The person&#39;s age is at least 18 and the income falls in the thir
 ## Solution
 
 ```py
-// ─── 6 ───
 age, income = map(int, input().split())
 
 if age < 18:
@@ -100,9 +99,6 @@ else:
         tax = income * 30 // 100
 
 print(tax)
-
-// ─── 11 ───
-80000
 ```
 
 ---
