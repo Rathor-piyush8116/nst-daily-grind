@@ -1,5 +1,1 @@
-// ─── 2 ───
-age =
-
-// ─── 3 ───
-25 800000
+age,income=map(int,input().split())
