@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `9deka6lvi9ji`  
-**Submission Time:** 2026-10-02T06:36:02.004Z  
+**Submission Time:** 2026-10-02T06:54:37.185Z  
 
 ## Problem Statement
 
@@ -81,7 +81,7 @@ Explanation The person&#39;s age is at least 18 and the income falls in the thir
 ## Solution
 
 ```js
-25 800000
+age,income=map(int,input().split())
 ```
 
 ---
