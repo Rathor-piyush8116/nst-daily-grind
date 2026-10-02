@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `y5wic9hq9xd6`  
-**Submission Time:** 2026-09-29T07:45:03.057Z  
+**Submission Time:** 2026-10-02T15:59:33.201Z  
 
 ## Problem Statement
 
@@ -28,17 +28,9 @@ Khul Ja Sim Sim!
 ## Solution
 
 ```js
-// ─── 2 ───
 # Your code here
 for _ in range(5):
     print("Khul Ja Sim Sim!")
-
-// ─── 5 ───
-Khul Ja Sim Sim!
-Khul Ja Sim Sim!
-Khul Ja Sim Sim!
-Khul Ja Sim Sim!
-Khul Ja Sim Sim!
 ```
 
 ---
