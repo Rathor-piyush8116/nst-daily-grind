@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lmyg16pk8ewc`  
-**Submission Time:** 2026-10-02T05:22:09.768Z  
+**Submission Time:** 2026-10-02T05:35:03.432Z  
 
 ## Problem Statement
 
@@ -67,6 +67,22 @@ Off-Campus
 ## Solution
 
 ```py
+// ─── 2 ───
+gender = input()
+year = int(input())
+if gender == "G":
+    print("On-Campus")
+elif gender == "B":
+    if year == 1:
+        print("On-Campus")
+    else:
+        print("Off-Campus")
+
+// ─── 12 ───
+On-Campus
+
+
+// ─── 13 ───
 # Your code here
 gender = input().strip()
 year = int(input().strip())
