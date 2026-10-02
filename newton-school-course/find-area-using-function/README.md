@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `sf6ymhvjjufy`  
-**Submission Time:** 2026-09-17T07:27:53.963Z  
+**Submission Time:** 2026-10-02T06:19:56.056Z  
 
 ## Problem Statement
 
@@ -51,15 +51,9 @@ Area = 5 × 4 = 20
 ## Solution
 
 ```py
-// ─── 2 ───
 def area(x, y):
     area=x*y
     return area
-   
-    
-
-// ─── 5 ───
-6
 ```
 
 ---
