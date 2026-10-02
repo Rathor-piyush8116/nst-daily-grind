@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `aao7xu785y4m`  
-**Submission Time:** 2026-09-17T07:36:08.075Z  
+**Submission Time:** 2026-10-02T06:19:31.931Z  
 
 ## Problem Statement
 
@@ -60,12 +60,8 @@ The input value 79 represents Alice's marks. When passed to the function GetGrad
 ## Solution
 
 ```js
-// ─── 2 ───
 marks = int(input())
 print(GetGrade(marks))
-
-// ─── 7 ───
-B
 ```
 
 ---
