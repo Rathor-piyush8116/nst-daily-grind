@@ -1,1 +1,1 @@
-age,income=map(int,input().split())
+25 800000
