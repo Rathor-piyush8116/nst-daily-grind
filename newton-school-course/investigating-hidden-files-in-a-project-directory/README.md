@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `jv6bk6yvpygg`  
-**Submission Time:** 2026-09-19T19:22:35.940Z  
+**Submission Time:** 2026-10-03T16:51:18.599Z  
 
 ## Problem Statement
 
@@ -43,7 +43,7 @@ NA
 ## Solution
 
 ```js
-ls project
+# your code goes here
 ```
 
 ---
