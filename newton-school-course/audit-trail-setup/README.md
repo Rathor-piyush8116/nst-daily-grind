@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lhyhcjk9ng9y`  
-**Submission Time:** 2026-09-19T20:19:29.073Z  
+**Submission Time:** 2026-10-03T09:04:37.421Z  
 
 ## Problem Statement
 
@@ -32,7 +32,6 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
 # pwd
 # ls audit_trail
 
@@ -40,19 +39,6 @@ chmod 750 audit_trail/
 # touch audit_trail/summary.txt
 echo "Audit Summary Generated" >> audit_trail/summary.txt
 
-chmod 640 audit_trail/summary.txt
-
-
-
-// ─── 32 ───
-script.sh: line 18: syntax error near unexpected token `>'
-script.sh: line 18: `echo "Audit Summary Generated" >>> audit_trail/summary.txt'
-
-Exited with error status 2
-
-// ─── 33 ───
-chmod 750 audit_trail
-echo "Audit Summary Generated" > audit_trail/summary.txt
 chmod 640 audit_trail/summary.txt
 ```
 
