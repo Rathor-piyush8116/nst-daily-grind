@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `in50x2uun3ai`  
-**Submission Time:** 2026-10-04T16:27:42.616Z  
+**Submission Time:** 2026-10-04T16:28:11.292Z  
 
 ## Problem Statement
 
@@ -64,17 +64,12 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
 mkdir Internship
 cp resume.pdf Internship/
 mv cover_letter.txt Internship
 mv hobbies.txt personal_interests.txt
 cd Internship
 touch checklist.txt
-
-
-// ─── 5 ───
-Task completed successfully
 ```
 
 ---
