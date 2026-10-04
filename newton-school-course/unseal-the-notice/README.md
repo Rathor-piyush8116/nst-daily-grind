@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ib3fsoemmyp4`  
-**Submission Time:** 2026-10-04T11:10:37.622Z  
+**Submission Time:** 2026-10-04T12:06:27.269Z  
 
 ## Problem Statement
 
@@ -39,16 +39,11 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
 cd notice_board
 chmod 444 notice.txt
 
 mkdir public
 cp notice.txt public/
-
-// ─── 24 ───
-Is question solved?
-Success
 ```
 
 ---
