@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `kb1g41v6e9gf`  
-**Submission Time:** 2026-10-04T20:10:11.958Z  
+**Submission Time:** 2026-10-04T20:30:20.533Z  
 
 ## Problem Statement
 
@@ -64,16 +64,10 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
-
 rm -r project/src/old_components
 rm project/src/temp.txt
 rm -r project/tests/old_tests
 rm -r project/docs/old_api
-
-// ─── 5 ───
-Are all necessary items deleted?
-All specified items have been successfully deleted.
 ```
 
 ---
