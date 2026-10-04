@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `xfgju6olz65z`  
-**Submission Time:** 2026-10-04T11:23:42.126Z  
+**Submission Time:** 2026-10-04T11:25:27.614Z  
 
 ## Problem Statement
 
@@ -46,14 +46,8 @@ NA
 ## Solution
 
 ```js
-// ─── 26 ───
 cat app.log
 echo "User login successful" >> app.log
-
-// ─── 35 ───
-Server Initializing...
-Server Started
-Task completed successfully
 ```
 
 ---
