@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `omfusuw6fnm6`  
-**Submission Time:** 2026-10-04T18:37:18.073Z  
+**Submission Time:** 2026-10-04T19:00:37.223Z  
 
 ## Problem Statement
 
@@ -44,14 +44,10 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
 cat temp.txt >> study.txt 
 rm temp.txt
 mkdir StudyNotes
 mv study.txt StudyNotes
-
-// ─── 5 ───
-Task completed successfully
 ```
 
 ---
