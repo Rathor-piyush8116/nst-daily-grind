@@ -1,0 +1,17 @@
+mkdir OperationX
+cd OperationX
+mkdir intel
+mkdir agents
+mkdir logs
+cd intel
+mkdir documents
+mkdir images
+cd ..
+cd agents
+mkdir alpha
+mkdir bravo
+mkdir charlie
+cd ..
+cd logs
+mkdir system
+mkdir security
