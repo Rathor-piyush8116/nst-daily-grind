@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `wyy6wo9g1uxd`  
-**Submission Time:** 2026-10-04T20:41:52.050Z  
+**Submission Time:** 2026-10-05T02:58:55.372Z  
 
 ## Problem Statement
 
@@ -27,18 +27,10 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
 git checkout -- app.txt
 echo "Correct line" >> app.txt
 git add app.txt
 git commit -m "Fix app content"
-
-// ─── 5 ───
-Restored app.txt
-Staged app.txt
-[main abc1234] Fix app content
-Is question solved?
-SUCCESS
 ```
 
 ---
