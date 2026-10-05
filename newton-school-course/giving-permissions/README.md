@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `aca1ozjmwujy`  
-**Submission Time:** 2026-10-05T01:53:19.814Z  
+**Submission Time:** 2026-10-05T02:05:51.589Z  
 
 ## Problem Statement
 
@@ -69,7 +69,6 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
 chmod 700 project/src/*.py
 
 chmod 770 project/data
@@ -78,10 +77,6 @@ chmod 770 project/data/*.csv
 
 chmod 644 project/docs/README.md
 chmod 755 project/scripts/*.sh
-
-// ─── 5 ───
-Are all permissions provided?
-All files and directories have the correct permissions.
 ```
 
 ---
