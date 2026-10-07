@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `sr09c3rxyaqp`  
-**Submission Time:** 2026-10-07T17:51:29.371Z  
+**Submission Time:** 2026-10-07T17:51:42.729Z  
 
 ## Problem Statement
 
@@ -59,6 +59,7 @@ Explanation:
 ## Solution
 
 ```js
+// ─── 2 ───
 # Your code here
 year1, year2, year3, year4 = map(int, input().split())
 
@@ -78,6 +79,9 @@ if year4 < earliest_year:
     movie_name = "Aquaman"
 
 print(movie_name)
+
+// ─── 3 ───
+2014 2015 2019 1989
 ```
 
 ---

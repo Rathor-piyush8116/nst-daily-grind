@@ -1,3 +1,4 @@
+// ─── 2 ───
 # Your code here
 year1, year2, year3, year4 = map(int, input().split())
 
@@ -17,3 +18,6 @@ if year4 < earliest_year:
     movie_name = "Aquaman"
 
 print(movie_name)
+
+// ─── 3 ───
+2014 2015 2019 1989
