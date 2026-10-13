@@ -1,4 +1,3 @@
-// ─── 2 ───
 height = int(input())
 age = int(input())
 
@@ -12,7 +11,3 @@ elif height <= 140 or age <= 12:
 else:
     print("Can ride alone")
     print(300)
-
-// ─── 5 ───
-Can ride alone
-300
