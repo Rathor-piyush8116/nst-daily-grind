@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `hxs04rom26vt`  
-**Submission Time:** 2026-10-13T17:59:42.897Z  
+**Submission Time:** 2026-10-13T17:59:46.901Z  
 
 ## Problem Statement
 
@@ -74,6 +74,7 @@ Not Allowed
 ## Solution
 
 ```py
+// ─── 2 ───
 height = int(input())
 age = int(input())
 
@@ -87,6 +88,10 @@ elif height <= 140 or age <= 12:
 else:
     print("Can ride alone")
     print(300)
+
+// ─── 3 ───
+145
+14
 ```
 
 ---
