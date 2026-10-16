@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `cxcsbuf458wl`  
-**Submission Time:** 2026-10-16T08:24:28.806Z  
+**Submission Time:** 2026-10-16T11:48:29.702Z  
 
 ## Problem Statement
 
@@ -38,16 +38,10 @@ Let’s check which numbers divide 10:
 ## Solution
 
 ```js
-// ─── 9 ───
 N = int(input())
 for i in range(1,N+1):
     if  N%i==0:
         print(i, end=" ")
-
-
-
-// ─── 13 ───
-1 2 5 10
 ```
 
 ---
