@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `spzgbzibg6ng`  
-**Submission Time:** 2026-10-16T17:20:17.439Z  
+**Submission Time:** 2026-10-16T18:19:19.706Z  
 
 ## Problem Statement
 
@@ -36,14 +36,14 @@ It can be seen that upto 5, there is no number which is a multiple of 5 and 3 bo
 ## Solution
 
 ```js
-// ─── 2 ───
+// ─── 6 ───
 N = int(input())
 for i in range(1,N+1):
     if i%3==0 and i%5==0:
         print(i,end=" ")
 
-// ─── 8 ───
-15 30
+// ─── 7 ───
+30
 ```
 
 ---
