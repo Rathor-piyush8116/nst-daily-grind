@@ -2,8 +2,8 @@
 
 ## Course Context
 **Course:** Newton School Course  
-**Problem Slug:** `ucnr5b95ghg8`  
-**Submission Time:** 2026-10-16T18:57:39.349Z  
+**Problem Slug:** `de97ihupl4ri`  
+**Submission Time:** 2026-10-17T08:22:39.317Z  
 
 ## Problem Statement
 
@@ -27,15 +27,15 @@ From 1 to 15, numbers like 3, 5, 6, 9, 10, and 12 are divisible by 3 or 5, but n
 ## Solution
 
 ```js
-// ─── 6 ───
-n=int(input())
-total_sum = 0
+// ─── 2 ───
+n = int(input())
 for i in range(1,n+1):
-    total_sum += i
-print(total_sum)
+    if (i%3==0) != (i%5==0):
+        print(i,end=" ")
+    
 
-// ─── 7 ───
-10
+// ─── 5 ───
+3 5 6 9 10 12
 ```
 
 ---
