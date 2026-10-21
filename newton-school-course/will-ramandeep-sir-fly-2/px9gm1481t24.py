@@ -1,4 +1,3 @@
-// ─── 2 ───
 d=float(input())
 seat_type = input()
 airline = input()
@@ -14,7 +13,3 @@ elif seat_type == "middle" or airline == "IngidoX":
 
 else:
     print("Ramandeep Sir will fly")
-
-
-// ─── 25 ───
-Ramandeep Sir will not fly

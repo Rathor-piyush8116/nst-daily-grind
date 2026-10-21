@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `px9gm1481t24`  
-**Submission Time:** 2026-10-21T09:32:20.693Z  
+**Submission Time:** 2026-10-21T09:32:47.941Z  
 
 ## Problem Statement
 
@@ -83,7 +83,6 @@ Ramandeep Sir will fly
 ## Solution
 
 ```py
-// ─── 2 ───
 d=float(input())
 seat_type = input()
 airline = input()
@@ -99,10 +98,6 @@ elif seat_type == "middle" or airline == "IngidoX":
 
 else:
     print("Ramandeep Sir will fly")
-
-
-// ─── 25 ───
-Ramandeep Sir will not fly
 ```
 
 ---
