@@ -10,7 +10,7 @@ elif trip_type == "domestic" and d<=1.5:
     print("Ramandeep Sir will fly")
 
 elif seat_type == "middle" or airline == "IngidoX":
-    print("Ramandeep Sir will not fly")
+        print("Ramandeep Sir will not fly")
 
 else:
     print("Ramandeep Sir will fly")

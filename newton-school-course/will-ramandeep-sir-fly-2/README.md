@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `px9gm1481t24`  
-**Submission Time:** 2026-10-21T09:30:19.877Z  
+**Submission Time:** 2026-10-21T09:32:20.693Z  
 
 ## Problem Statement
 
@@ -95,7 +95,7 @@ elif trip_type == "domestic" and d<=1.5:
     print("Ramandeep Sir will fly")
 
 elif seat_type == "middle" or airline == "IngidoX":
-    print("Ramandeep Sir will not fly")
+        print("Ramandeep Sir will not fly")
 
 else:
     print("Ramandeep Sir will fly")
