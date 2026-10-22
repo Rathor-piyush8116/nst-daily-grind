@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `yrpzfahsfhj4`  
-**Submission Time:** 2026-10-04T20:35:21.276Z  
+**Submission Time:** 2026-10-22T23:43:14.913Z  
 
 ## Problem Statement
 
@@ -75,8 +75,8 @@ if start < end:
 else:
     print(0)
 
-// ─── 7 ───
-2
+// ─── 3 ───
+2 6 4 8
 ```
 
 ---
