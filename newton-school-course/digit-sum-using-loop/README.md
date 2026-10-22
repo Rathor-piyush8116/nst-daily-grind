@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `o8an6jzdj9nx`  
-**Submission Time:** 2026-10-22T05:02:35.682Z  
+**Submission Time:** 2026-10-22T05:04:33.603Z  
 
 ## Problem Statement
 
@@ -26,7 +26,6 @@ The digits of the given number are: 2, 8, 3, 9 and 3. And their sum is 25.
 ## Solution
 
 ```py
-// ─── 12 ───
 def sum_of_digits(N):
     total = 0
     while N > 0:
@@ -34,9 +33,6 @@ def sum_of_digits(N):
         total = total+rem
         N= N//10
     return total
-
-// ─── 16 ───
-15
 ```
 
 ---
