@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ucnr5b95ghg8`  
-**Submission Time:** 2026-10-23T00:26:58.026Z  
+**Submission Time:** 2026-10-23T00:33:44.039Z  
 
 ## Problem Statement
 
@@ -33,15 +33,11 @@ The sum of number from 1 to 20 is equal to 210.
 ## Solution
 
 ```js
-// ─── 2 ───
 n=int(input())
 total_sum = 0
 for i in range(1,n+1):
     total_sum += i
 print(total_sum)
-
-// ─── 3 ───
-10
 ```
 
 ---
