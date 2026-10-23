@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `dat538729991`  
-**Submission Time:** 2026-10-23T10:38:52.330Z  
+**Submission Time:** 2026-10-23T10:40:10.202Z  
 
 ## Problem Statement
 
@@ -40,15 +40,7 @@ PM
 ## Solution
 
 ```js
-// ─── 2 ───
-n = int(input())
-if 0<=n<=11:
-    print("AM")
-else:
-    print("PM")
-
-// ─── 5 ───
-AM
+10
 ```
 
 ---
