@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `tvx3gqn03q4n`  
-**Submission Time:** 2026-10-23T11:32:58.535Z  
+**Submission Time:** 2026-10-23T11:43:33.469Z  
 
 ## Problem Statement
 
@@ -38,7 +38,6 @@ Explanation
 ## Solution
 
 ```js
-// ─── 2 ───
 N = int(input())
 cnt=0
 for i in range(1,N+1):
@@ -48,10 +47,6 @@ if cnt==2:
     print("YES")
 else:
     print("NO")
-
-
-// ─── 19 ───
-10
 ```
 
 ---
