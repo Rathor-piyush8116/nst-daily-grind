@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `1djfjxzlrafs`  
-**Submission Time:** 2026-10-22T23:53:25.424Z  
+**Submission Time:** 2026-10-23T00:10:35.351Z  
 
 ## Problem Statement
 
@@ -71,16 +71,12 @@ The numbers can be arranged as (-4, 4, 12), which forms an arithmetic progressio
 ## Solution
 
 ```js
-// ─── 2 ───
 a, b, c = map(int, input().split())
 
 if a + c == 2 * b or a + b == 2 * c or b + c == 2 * a:
     print("YES")
 else:
     print("NO")
-
-// ─── 3 ───
-6 2 4
 ```
 
 ---
