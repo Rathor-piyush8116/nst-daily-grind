@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `mrcqvwbazafc`  
-**Submission Time:** 2026-10-16T18:42:02.890Z  
+**Submission Time:** 2026-10-23T10:41:37.682Z  
 
 ## Problem Statement
 
@@ -31,14 +31,10 @@ Output
 ## Solution
 
 ```js
-// ─── 29 ───
 n=int(input())
 for i in range(1,n+1):
     if i%2 == 0:
         print(i)
-
-// ─── 30 ───
-6
 ```
 
 ---
