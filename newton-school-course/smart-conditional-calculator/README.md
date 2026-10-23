@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `moh7i4qii917`  
-**Submission Time:** 2026-10-23T05:09:54.432Z  
+**Submission Time:** 2026-10-23T05:09:58.858Z  
 
 ## Problem Statement
 
@@ -71,6 +71,7 @@ Both numbers are even → 4 + 8 = 12
 ## Solution
 
 ```js
+// ─── 2 ───
 #Create a function named smart_calculator(a, b) and write your code inside it.
 def smart_calculator(a,b):
     if a%2==0 and b%2==0:
@@ -79,6 +80,9 @@ def smart_calculator(a,b):
         return a*b
     else:
         return abs(a - b)
+
+// ─── 3 ───
+4 8
 ```
 
 ---
