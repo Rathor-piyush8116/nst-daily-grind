@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `9hnvzxbttbbl`  
-**Submission Time:** 2026-10-24T06:53:40.336Z  
+**Submission Time:** 2026-10-24T07:03:45.955Z  
 
 ## Problem Statement
 
@@ -33,19 +33,18 @@ Combined output: 4 3 2 1 1 2 3 4
 ## Solution
 
 ```py
-// ─── 2 ───
-n=int(input())
+// ─── 13 ───
+n = int(input())
 def recursive_pr(n):
     if n<1:
-        return 
+        return
     print(n,end=" ")
     recursive_pr(n-1)
     print(n,end=" ")
 recursive_pr(n)
 
-    
 
-// ─── 12 ───
+// ─── 43 ───
 4 3 2 1 1 2 3 4
 ```
 
