@@ -4,7 +4,7 @@ book = input()
 book_price = int(input())
 years = int(input())
 fine=0
-if book == "Normal":
+if book =="Normal":
     if days <=7:
         fine = 2*days
     else:
