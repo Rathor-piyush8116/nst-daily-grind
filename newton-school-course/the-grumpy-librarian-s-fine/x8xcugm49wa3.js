@@ -1,4 +1,3 @@
-// ─── 2 ───
 days_late = int(input())
 book = input()
 book_price = int(input())
@@ -22,11 +21,3 @@ if fine==0:
     print("No Fine")
 else:
     print(fine)
-
-
-
-
-    
-
-// ─── 45 ───
-No Fine

@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `x8xcugm49wa3`  
-**Submission Time:** 2026-10-24T08:41:23.555Z  
+**Submission Time:** 2026-10-24T08:45:40.031Z  
 
 ## Problem Statement
 
@@ -82,7 +82,6 @@ Explanation
 ## Solution
 
 ```js
-// ─── 2 ───
 days_late = int(input())
 book = input()
 book_price = int(input())
@@ -106,14 +105,6 @@ if fine==0:
     print("No Fine")
 else:
     print(fine)
-
-
-
-
-    
-
-// ─── 45 ───
-No Fine
 ```
 
 ---
