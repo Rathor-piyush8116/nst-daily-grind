@@ -1,23 +1,27 @@
-days_late = int(input())
+// ─── 2 ───
+days = int(input())
 book = input()
 book_price = int(input())
-mem = int(input())
-fine = 0
+years = int(input())
+fine=0
 if book == "Normal":
-    if days_late <=7:
-        fine = 2*days_late
+    if days <=7:
+        fine = 2*days
     else:
-        fine = 14+5*(days_late-7)
+        fine = 14+5*(days-7)
 else:
-    fine = 10 *days_late
+    fine = 10*days
 
 if fine > book_price:
-    fine=book_price
+    fine = book_price
 
-if mem >= 5:
+if years >= 5:
     fine = fine//2
 
 if fine==0:
     print("No Fine")
 else:
     print(fine)
+
+// ─── 15 ───
+29
