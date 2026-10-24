@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `pa8z8kl7913h`  
-**Submission Time:** 2026-10-24T06:42:12.394Z  
+**Submission Time:** 2026-10-24T07:19:19.870Z  
 
 ## Problem Statement
 
@@ -39,8 +39,8 @@ For input n = 5, the function first prints 5, then recursively calls itself with
 def print_reverse(n):
     if n < 1:
         return 
-    print(n)
     print_reverse(n-1)
+    print(n)
 ```
 
 ---
