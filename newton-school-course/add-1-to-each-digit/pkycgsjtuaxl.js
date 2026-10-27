@@ -1,4 +1,3 @@
-// ─── 2 ───
 num = int(input())
 ans = 0
 pos = 1
@@ -10,6 +9,3 @@ while num > 0:
     num = num // 10
 
 print(ans)
-
-// ─── 8 ───
-876403

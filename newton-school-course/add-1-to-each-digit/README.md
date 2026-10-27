@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `pkycgsjtuaxl`  
-**Submission Time:** 2026-10-27T11:14:27.063Z  
+**Submission Time:** 2026-10-27T12:33:53.311Z  
 
 ## Problem Statement
 
@@ -26,7 +26,6 @@ Output
 ## Solution
 
 ```js
-// ─── 2 ───
 num = int(input())
 ans = 0
 pos = 1
@@ -38,9 +37,6 @@ while num > 0:
     num = num // 10
 
 print(ans)
-
-// ─── 8 ───
-876403
 ```
 
 ---
