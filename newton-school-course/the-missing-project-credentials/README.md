@@ -2,8 +2,8 @@
 
 ## Course Context
 **Course:** Newton School Course  
-**Problem Slug:** `dgoeggtuz3y2`  
-**Submission Time:** 2026-10-14T05:01:53.764Z  
+**Problem Slug:** `id28h3iyqp8w`  
+**Submission Time:** 2026-10-28T09:00:47.097Z  
 
 ## Problem Statement
 
@@ -55,14 +55,8 @@ NA
 ## Solution
 
 ```js
-// ─── 2 ───
 cd EventApp
-grep -rn "DB_PASSWORD" . > /tmp/match.txt
-file_path=$(head -n 1 /tmp/match.txt | cut -d: -f1)
-grep "DB_PASSWORD" "$file_path" > db_password.txt
-
-// ─── 5 ───
-Task completed successfully
+find . -type f -name ".*" -exec grep -H "DB_PASSWORD" {} \; | cut -d: -f2- > db_password.txt
 ```
 
 ---
