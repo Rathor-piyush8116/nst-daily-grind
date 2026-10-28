@@ -1,4 +1,4 @@
-// ─── 15 ───
+// ─── 23 ───
 # Your code here
 num1,num2 = map(int,input().split())
 k = 1
@@ -9,5 +9,5 @@ while k:
     k = k - 1
 print(num1)
 
-// ─── 21 ───
-5135
+// ─── 24 ───
+543 4592

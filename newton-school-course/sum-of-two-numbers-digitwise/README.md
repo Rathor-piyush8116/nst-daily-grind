@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `tdo3wx6sig2w`  
-**Submission Time:** 2026-10-28T06:23:01.494Z  
+**Submission Time:** 2026-10-28T06:25:16.070Z  
 
 ## Problem Statement
 
@@ -37,7 +37,7 @@ Now reverse the result to form the final number:
 ## Solution
 
 ```js
-// ─── 15 ───
+// ─── 23 ───
 # Your code here
 num1,num2 = map(int,input().split())
 k = 1
@@ -48,8 +48,8 @@ while k:
     k = k - 1
 print(num1)
 
-// ─── 21 ───
-5135
+// ─── 24 ───
+543 4592
 ```
 
 ---
