@@ -1,4 +1,4 @@
-// ─── 2 ───
+// ─── 26 ───
 # TODO: Define a function named 'reverse' that takes an 
 # integer and returns the reversed number
 rev_num = 0
@@ -21,5 +21,5 @@ else:
 
 # TODO: Take input from user and use reverse() function to solve the problem
 
-// ─── 14 ───
-Yes
+// ─── 27 ───
+54145

@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `cye0z3o53em3`  
-**Submission Time:** 2026-10-29T05:03:11.464Z  
+**Submission Time:** 2026-10-29T05:18:42.573Z  
 
 ## Problem Statement
 
@@ -33,7 +33,7 @@ No
 ## Solution
 
 ```js
-// ─── 2 ───
+// ─── 26 ───
 # TODO: Define a function named 'reverse' that takes an 
 # integer and returns the reversed number
 rev_num = 0
@@ -56,8 +56,8 @@ else:
 
 # TODO: Take input from user and use reverse() function to solve the problem
 
-// ─── 14 ───
-Yes
+// ─── 27 ───
+54145
 ```
 
 ---
