@@ -1,4 +1,3 @@
-// ─── 2 ───
 cd client_vault
 
 cp originals/contract.pdf .
@@ -17,10 +16,3 @@ chmod 600 staging/staging_report.txt
 chmod u+w audit/access.log
 echo "Second review complete" >> audit/access.log
 chmod 444 audit/access.log
-
-
-
-
-// ─── 5 ───
-Is all the requirements fulfilled?
-SUCCESS
