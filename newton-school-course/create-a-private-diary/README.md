@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `hmc35wpe0eer`  
-**Submission Time:** 2026-09-25T10:17:48.856Z  
+**Submission Time:** 2026-11-01T14:15:20.732Z  
 
 ## Problem Statement
 
@@ -33,18 +33,11 @@ NA
 ## Solution
 
 ```js
-// ─── 6 ───
 mkdir personal_space
 cd personal_space
 touch diary.txt
 echo "Top Secret Entry" > diary.txt
 chmod 600 diary.txt
-
-
-
-// ─── 9 ───
-Is question solved?
-Success
 ```
 
 ---
