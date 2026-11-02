@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `gxc69oaz2lgr`  
-**Submission Time:** 2026-10-29T05:20:53.506Z  
+**Submission Time:** 2026-11-02T16:54:45.480Z  
 
 ## Problem Statement
 
@@ -28,7 +28,6 @@ These are all the prime numbers between 1 and 30.
 ## Solution
 
 ```js
-// ─── 38 ───
 # TODO: Define a function named 'isPrime' that takes an 
 # integer and checks if it is a prime or not.
 n = int(input())
@@ -53,9 +52,6 @@ isPrime(n)
 
 
 # TODO: Take input from user and use isPrime function to solve the problem
-
-// ─── 41 ───
-2 3 5 7 11 13 17 19 23 29
 ```
 
 ---
