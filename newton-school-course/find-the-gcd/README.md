@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `onzrjfb6vr2b`  
-**Submission Time:** 2026-11-02T16:55:16.266Z  
+**Submission Time:** 2026-11-02T16:57:58.124Z  
 
 ## Problem Statement
 
@@ -37,7 +37,7 @@ No other number greater than 1 divides both 7 and 13 completely.
 ## Solution
 
 ```py
-// ─── 2 ───
+// ─── 6 ───
 num1 , num2 = map(int,input().split())
 num1 , num2 = abs(num1),abs(num2)
 def gcd(a,b):
@@ -47,7 +47,7 @@ def gcd(a,b):
 gcd = gcd(num1,num2)
 print(gcd)
 
-// ─── 3 ───
+// ─── 7 ───
 25 50
 ```
 

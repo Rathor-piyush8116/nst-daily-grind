@@ -1,4 +1,4 @@
-// ─── 2 ───
+// ─── 6 ───
 num1 , num2 = map(int,input().split())
 num1 , num2 = abs(num1),abs(num2)
 def gcd(a,b):
@@ -8,5 +8,5 @@ def gcd(a,b):
 gcd = gcd(num1,num2)
 print(gcd)
 
-// ─── 3 ───
+// ─── 7 ───
 25 50
