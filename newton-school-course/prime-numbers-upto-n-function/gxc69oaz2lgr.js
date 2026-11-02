@@ -1,3 +1,4 @@
+// ─── 2 ───
 # TODO: Define a function named 'isPrime' that takes an 
 # integer and checks if it is a prime or not.
 n = int(input())
@@ -22,3 +23,6 @@ isPrime(n)
 
 
 # TODO: Take input from user and use isPrime function to solve the problem
+
+// ─── 3 ───
+30
