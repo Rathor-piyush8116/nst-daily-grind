@@ -1,4 +1,3 @@
-// ─── 2 ───
 # Your code here# Read N as an integer directly
 n = int(input())
 
@@ -13,6 +12,3 @@ else:
         n //= 10
 
 print(count)
-
-// ─── 5 ───
-5

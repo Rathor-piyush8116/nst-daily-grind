@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `hepd9w23jfg8`  
-**Submission Time:** 2026-11-02T16:56:31.887Z  
+**Submission Time:** 2026-11-02T16:57:13.069Z  
 
 ## Problem Statement
 
@@ -40,7 +40,6 @@ There are total 5 digits in the given number that are: 2, 8, 2, 3 and 2.
 ## Solution
 
 ```js
-// ─── 2 ───
 # Your code here# Read N as an integer directly
 n = int(input())
 
@@ -55,9 +54,6 @@ else:
         n //= 10
 
 print(count)
-
-// ─── 5 ───
-5
 ```
 
 ---
