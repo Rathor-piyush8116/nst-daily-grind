@@ -1,4 +1,3 @@
-// ─── 2 ───
 # Your code here
 r = int(input())
 t = int(input())
@@ -32,8 +31,3 @@ if h == 1:
     r += 50
 
 print(r)
-
-
-
-// ─── 10 ───
-1350

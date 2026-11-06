@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `d65pljxup98d`  
-**Submission Time:** 2026-10-23T04:08:35.059Z  
+**Submission Time:** 2026-11-06T12:44:31.977Z  
 
 ## Problem Statement
 
@@ -96,7 +96,6 @@ Final rating = 1500 - 30 = 1470
 ## Solution
 
 ```py
-// ─── 2 ───
 # Your code here
 r = int(input())
 t = int(input())
@@ -130,11 +129,6 @@ if h == 1:
     r += 50
 
 print(r)
-
-
-
-// ─── 10 ───
-1350
 ```
 
 ---
