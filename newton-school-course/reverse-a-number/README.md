@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `9iplyysjwq4e`  
-**Submission Time:** 2026-11-09T06:03:39.835Z  
+**Submission Time:** 2026-11-09T11:14:44.604Z  
 
 ## Problem Statement
 
@@ -29,19 +29,15 @@ Output
 ## Solution
 
 ```js
-// ─── 7 ───
 n = int(input())
 reversed_num = 0
 
 while n > 0:
     digit = n % 10
     reversed_num = (reversed_num * 10) + digit
-    n = n // 10
+    n = n // 10 
 
 print(reversed_num)
-
-// ─── 8 ───
-12345
 ```
 
 ---
