@@ -1,4 +1,4 @@
-// ─── 2 ───
+// ─── 7 ───
 n = int(input())
 reversed_num = 0
 
@@ -9,6 +9,5 @@ while n > 0:
 
 print(reversed_num)
 
-
-// ─── 5 ───
-54321
+// ─── 8 ───
+12345
