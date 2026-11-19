@@ -2,8 +2,8 @@
 
 ## Course Context
 **Course:** Newton School Course  
-**Problem Slug:** `unisxf5kkmbm`  
-**Submission Time:** 2026-11-06T16:17:31.346Z  
+**Problem Slug:** `1nypxik3qpn3`  
+**Submission Time:** 2026-11-19T04:07:46.529Z  
 
 ## Problem Statement
 
@@ -25,17 +25,25 @@ The given number 2839 contains digits: 2, 8, 3 and 9, amongst them 2 is the smal
 
 ## Solution
 
-```js
-# Your code here
-n=int(input())
-s=10
-while n!=0:
-    d=n%10
-    if d<s:
-        s=d
-    n=n//10
- 
-print(s)
+```py
+// ─── 2 ───
+n = int(input())
+
+def smallest(n):
+    if n<10:
+        return n
+
+    last = n % 10
+    small = smallest(n//10)
+
+    if last < small:
+        return last
+    else:
+        return small
+print(smallest(n))
+
+// ─── 5 ───
+2
 ```
 
 ---
