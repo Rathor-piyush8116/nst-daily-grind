@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `1al8tjxfiocw`  
-**Submission Time:** 2026-11-19T04:41:19.308Z  
+**Submission Time:** 2026-11-19T04:42:54.263Z  
 
 ## Problem Statement
 
@@ -33,7 +33,6 @@ No
 ## Solution
 
 ```js
-// ─── 2 ───
 n = int(input().strip())
 
 original = n
@@ -47,9 +46,6 @@ if original == reversed_num:
     print("Yes")
 else:
     print("No")
-
-// ─── 5 ───
-Yes
 ```
 
 ---
