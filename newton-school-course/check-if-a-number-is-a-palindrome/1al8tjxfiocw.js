@@ -1,3 +1,4 @@
+// ─── 2 ───
 n = int(input().strip())
 
 original = n
@@ -11,3 +12,6 @@ if original == reversed_num:
     print("Yes")
 else:
     print("No")
+
+// ─── 3 ───
+54145
