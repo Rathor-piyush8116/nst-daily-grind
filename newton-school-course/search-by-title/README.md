@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `jb03n096bbdv`  
-**Submission Time:** 2026-11-24T07:57:51.864Z  
+**Submission Time:** 2026-11-24T08:00:19.359Z  
 
 ## Problem Statement
 
@@ -48,15 +48,20 @@ False
 ## Solution
 
 ```py
-// ─── 2 ───
+// ─── 19 ───
 def search_book_by_title(book_catalog, title):
     for i in range(len(book_catalog)):
         if book_catalog[i] == title:
             return True
     return False
 
-
-// ─── 11 ───
+// ─── 20 ───
+2 States
+Harry Potter
+Divergent
+stop
+Divergent
+Output
 True
 ```
 
