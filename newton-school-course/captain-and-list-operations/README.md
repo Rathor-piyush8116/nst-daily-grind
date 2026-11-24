@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `uyvfnz65ssc6`  
-**Submission Time:** 2026-11-24T12:39:30.629Z  
+**Submission Time:** 2026-11-24T12:44:41.189Z  
 
 ## Problem Statement
 
@@ -49,8 +49,8 @@ Safe
 
 ## Solution
 
-```py
-// ─── 2 ───
+```js
+// ─── 26 ───
 captain_army = input().split()
 brother_army = input().split()
 
@@ -71,11 +71,9 @@ if "Enemy" not in potion_army:
 else:
   print("Not Safe")
 
-// ─── 5 ───
-['Captain', 'Archer', 'Soldier', 'Warrior', 'Guard', 'Knight']
-['Captain', 'Archer', 'Soldier', 'Warrior', 'Guard', 'Knight', 'Captain', 'Archer', 'Soldier', 'Warrior', 'Guard', 'Knight', 'Captain', 'Archer', 'Soldier', 'Warrior', 'Guard', 'Knight']
-True
-Safe
+// ─── 27 ───
+Captain Lieutenant
+Archer Captain
 ```
 
 ---
