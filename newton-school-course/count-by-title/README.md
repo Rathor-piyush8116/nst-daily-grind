@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `v02swbhug627`  
-**Submission Time:** 2026-11-24T11:24:49.288Z  
+**Submission Time:** 2026-11-24T11:32:33.255Z  
 
 ## Problem Statement
 
@@ -40,15 +40,17 @@ Output
 ```py
 // ─── 25 ───
 def count_books_by_title(book_catalog, title):
-    print(book_catalog.count(title))
+    count = 0
+    size = len(book_catalog)
 
-// ─── 26 ───
-Ramayana
-Mahabharata
-Gita
-Gita
-stop
-Gita
+    for i in range(0,size):
+        if book_catalog[i] == title:
+            count += 1
+
+    return count
+
+// ─── 31 ───
+2
 ```
 
 ---
