@@ -1,14 +1,11 @@
-// ─── 14 ───
+// ─── 25 ───
 def count_books_by_title(book_catalog, title):
-    count = 0
-    for i in book_catalog:
-        if i == title:
-            count += 1
+    print(book_catalog.count(title))
 
-    return count
-
-
-
-
-// ─── 19 ───
-2
+// ─── 26 ───
+Ramayana
+Mahabharata
+Gita
+Gita
+stop
+Gita
