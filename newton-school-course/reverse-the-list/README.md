@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `dixk2dc8s0yc`  
-**Submission Time:** 2026-11-24T12:43:20.240Z  
+**Submission Time:** 2026-11-24T12:45:49.452Z  
 
 ## Problem Statement
 
@@ -37,12 +37,12 @@ The given list is [7, 4, 9], after reversing the list we get [9, 4, 7] as output
 ## Solution
 
 ```py
-// ─── 19 ───
+// ─── 38 ───
 def reverse_list(arr):
   return arr[::-1]
 
-// ─── 24 ───
-[6, 25, 2, 9, 17, 3]
+// ─── 39 ───
+3 17 9 2 25 6
 ```
 
 ---
