@@ -1,4 +1,4 @@
-// ─── 34 ───
+// ─── 42 ───
 nums = list(map(int, input().split()))
 
 curr_max = nums[0]
@@ -8,5 +8,5 @@ for val in nums:
 
 print(curr_max)
 
-// ─── 35 ───
+// ─── 43 ───
 3 17 9 2 25 6
