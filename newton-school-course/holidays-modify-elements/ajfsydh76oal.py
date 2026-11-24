@@ -1,4 +1,4 @@
-// ─── 23 ───
+// ─── 35 ───
 def modify_holidays(holidays):
     holidays[3] = "Good Friday"
     print(holidays)
@@ -15,9 +15,12 @@ def modify_holidays(holidays):
     holidays.remove("Independence Day")
     print(holidays)
 
-// ─── 31 ───
-['New Year', 'Republic Day', 'Holi', 'Good Friday', 'Independence Day', 'Diwali', 'Eid']
-['New Year', 'Republic Day', 'Holi', 'Good Friday', 'Independence Day', 'Diwali', 'Eid', 'Eid']
-['New Year', 'Republic Day', 'Makar Sankranti', 'Holi', 'Good Friday', 'Independence Day', 'Diwali', 'Eid', 'Eid']
-['New Year', 'Republic Day', 'Makar Sankranti', 'Holi', 'Good Friday', 'Independence Day', 'Diwali', 'Eid']
-['New Year', 'Republic Day', 'Makar Sankranti', 'Holi', 'Good Friday', 'Diwali', 'Eid']
+// ─── 36 ───
+New Year
+Republic Day
+Holi
+God Froday
+Independence Day
+Diwali
+Eid
+stop

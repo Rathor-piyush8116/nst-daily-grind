@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ajfsydh76oal`  
-**Submission Time:** 2026-11-24T08:08:20.440Z  
+**Submission Time:** 2026-11-24T08:08:40.472Z  
 
 ## Problem Statement
 
@@ -66,7 +66,7 @@ Output
 ## Solution
 
 ```py
-// ─── 23 ───
+// ─── 35 ───
 def modify_holidays(holidays):
     holidays[3] = "Good Friday"
     print(holidays)
@@ -83,12 +83,15 @@ def modify_holidays(holidays):
     holidays.remove("Independence Day")
     print(holidays)
 
-// ─── 31 ───
-['New Year', 'Republic Day', 'Holi', 'Good Friday', 'Independence Day', 'Diwali', 'Eid']
-['New Year', 'Republic Day', 'Holi', 'Good Friday', 'Independence Day', 'Diwali', 'Eid', 'Eid']
-['New Year', 'Republic Day', 'Makar Sankranti', 'Holi', 'Good Friday', 'Independence Day', 'Diwali', 'Eid', 'Eid']
-['New Year', 'Republic Day', 'Makar Sankranti', 'Holi', 'Good Friday', 'Independence Day', 'Diwali', 'Eid']
-['New Year', 'Republic Day', 'Makar Sankranti', 'Holi', 'Good Friday', 'Diwali', 'Eid']
+// ─── 36 ───
+New Year
+Republic Day
+Holi
+God Froday
+Independence Day
+Diwali
+Eid
+stop
 ```
 
 ---
