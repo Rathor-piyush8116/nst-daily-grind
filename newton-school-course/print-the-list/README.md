@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `c6ypiqf028sq`  
-**Submission Time:** 2026-11-24T11:42:32.425Z  
+**Submission Time:** 2026-11-24T11:44:03.267Z  
 
 ## Problem Statement
 
@@ -32,6 +32,7 @@ Output
 // ─── 9 ───
 nums = list(map(int, input().split()))
 print(nums)
+
 
 // ─── 14 ───
 [1, 2, 3, 4, 5]
