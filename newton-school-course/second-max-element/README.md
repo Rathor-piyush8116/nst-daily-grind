@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `mw6uvuk8uyqz`  
-**Submission Time:** 2026-11-24T12:40:34.647Z  
+**Submission Time:** 2026-11-24T12:45:11.760Z  
 
 ## Problem Statement
 
@@ -37,14 +37,14 @@ The given list arranged in the sorted order will be [1, 4, 7, 7]. The largest va
 ## Solution
 
 ```py
-// ─── 8 ───
+// ─── 30 ───
 # Your code here
 nums = list(map(int, input().split()))
 
 distinct_sorted = sorted(set(nums), reverse=True)
 print(distinct_sorted[1])
 
-// ─── 9 ───
+// ─── 31 ───
 3 17 9 2 25 6
 ```
 
