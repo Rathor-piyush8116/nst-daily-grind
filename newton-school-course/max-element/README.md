@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `du6dqx4fuqgt`  
-**Submission Time:** 2026-11-24T12:42:20.467Z  
+**Submission Time:** 2026-11-24T12:45:31.901Z  
 
 ## Problem Statement
 
@@ -33,7 +33,7 @@ In the list [7, 4, 9, 1, 6], the largest number is 9.
 ## Solution
 
 ```js
-// ─── 12 ───
+// ─── 34 ───
 nums = list(map(int, input().split()))
 
 curr_max = nums[0]
@@ -43,8 +43,8 @@ for val in nums:
 
 print(curr_max)
 
-// ─── 17 ───
-25
+// ─── 35 ───
+3 17 9 2 25 6
 ```
 
 ---
