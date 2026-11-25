@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `e41xzv1end69`  
-**Submission Time:** 2026-11-25T17:08:12.233Z  
+**Submission Time:** 2026-11-25T17:10:46.013Z  
 
 ## Problem Statement
 
@@ -24,9 +24,13 @@ Output
 ## Solution
 
 ```js
+// ─── 2 ───
 n = int(input())
 for i in range(1,n+1):
-    print(i**2,end=" ")
+    print(i**2,end = " ")
+
+// ─── 8 ───
+1 4 9 16 25
 ```
 
 ---
