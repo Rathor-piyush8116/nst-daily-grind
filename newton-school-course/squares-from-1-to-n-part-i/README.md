@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `pe1twcmq8h4g`  
-**Submission Time:** 2026-10-17T08:29:07.714Z  
+**Submission Time:** 2026-11-25T17:10:50.871Z  
 
 ## Problem Statement
 
@@ -38,12 +38,12 @@ Output
 ## Solution
 
 ```js
-// ─── 23 ───
+// ─── 2 ───
 n=int(input())
 for i in range(1,n+1):
     print(i**2)
 
-// ─── 24 ───
+// ─── 3 ───
 5
 ```
 
