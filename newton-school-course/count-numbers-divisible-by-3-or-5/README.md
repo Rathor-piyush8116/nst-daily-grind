@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `de97ihupl4ri`  
-**Submission Time:** 2026-10-17T08:22:39.317Z  
+**Submission Time:** 2026-11-25T17:13:10.769Z  
 
 ## Problem Statement
 
@@ -27,15 +27,7 @@ From 1 to 15, numbers like 3, 5, 6, 9, 10, and 12 are divisible by 3 or 5, but n
 ## Solution
 
 ```js
-// ─── 2 ───
-n = int(input())
-for i in range(1,n+1):
-    if (i%3==0) != (i%5==0):
-        print(i,end=" ")
-    
-
-// ─── 5 ───
-3 5 6 9 10 12
+15
 ```
 
 ---
