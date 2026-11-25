@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `2f79kkoqzlr3`  
-**Submission Time:** 2026-11-25T05:12:55.619Z  
+**Submission Time:** 2026-11-25T05:17:43.746Z  
 
 ## Problem Statement
 
@@ -42,21 +42,8 @@ Element 5 is not present in this list, thus we are required to print -1.
 ## Solution
 
 ```js
-// ─── 2 ───
-
-N, X = map(int, input().split())
-arr = list(map(int, input().split()))
-
-ans = -1
-for i in range(N):
-  if arr[i] == X:
-    ans = i
-    break
-
-print(ans)
-
-// ─── 5 ───
--1
+5 5
+7 4 9 1 6
 ```
 
 ---
