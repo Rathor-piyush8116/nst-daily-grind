@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `8f2dje6cdqy6`  
-**Submission Time:** 2026-11-26T05:20:29.880Z  
+**Submission Time:** 2026-11-26T05:20:55.071Z  
 
 ## Problem Statement
 
@@ -58,8 +58,7 @@ for i in range(n):
         if matrix[i][j] == target:
             ans = True
             break
-    if ans:
-        break
+    
 print(ans)
 
 

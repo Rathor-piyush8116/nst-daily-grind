@@ -12,8 +12,7 @@ for i in range(n):
         if matrix[i][j] == target:
             ans = True
             break
-    if ans:
-        break
+    
 print(ans)
 
 
